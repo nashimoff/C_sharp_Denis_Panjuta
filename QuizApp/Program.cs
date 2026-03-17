@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// See https://aka.ms/new-console-template for more information  Nurlan
 
 string question1 = "What is the capital of Germany";
 string answer1 = "Berlin";
