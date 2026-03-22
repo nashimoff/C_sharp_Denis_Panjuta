@@ -1,32 +1,72 @@
 ﻿@"
-# Build results
-bin/
-obj/
-out/
-
+# ───────────────────────────────
 # Visual Studio
+# ───────────────────────────────
 .vs/
-*.suo
 *.user
+*.suo
 *.userosscache
 *.sln.docstates
-*.userprefs
 
-# JetBrains Rider
-.idea/
-*.sln.iml
+# ───────────────────────────────
+# Build output (all platforms)
+# ───────────────────────────────
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.lib
+*.exp
+*.o
+*.obj
+*.out
+*.a
 
+# ───────────────────────────────
+# CMake (cross-platform builds)
+# ───────────────────────────────
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build/
+out/
+
+# ───────────────────────────────
 # VS Code
+# ───────────────────────────────
 .vscode/
 
-# NuGet
-*.nupkg
-packages/
-project.lock.json
-project.assets.json
+# ───────────────────────────────
+# CLion / JetBrains (Mac/Linux)
+# ───────────────────────────────
+.idea/
+*.iml
+cmake-build-*/
 
-# OS
+# ───────────────────────────────
+# macOS
+# ───────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ───────────────────────────────
+# Windows
+# ───────────────────────────────
 Thumbs.db
 Desktop.ini
-.DS_Store
+
+# ───────────────────────────────
+# Linux
+# ───────────────────────────────
+*~
+*.swp
 "@ | Out-File -FilePath ".gitignore" -Encoding utf8
