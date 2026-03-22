@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreOperators", "MoreOperat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryParse", "TryParse\TryParse.csproj", "{4089ACD6-E968-4C85-B069-6B3EFE3A9B32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding_Exercise_6", "Coding_Exercise_6\Coding_Exercise_6.csproj", "{1A83033E-1268-4C20-B595-B2DE142958CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{4089ACD6-E968-4C85-B069-6B3EFE3A9B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4089ACD6-E968-4C85-B069-6B3EFE3A9B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4089ACD6-E968-4C85-B069-6B3EFE3A9B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A83033E-1268-4C20-B595-B2DE142958CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A83033E-1268-4C20-B595-B2DE142958CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A83033E-1268-4C20-B595-B2DE142958CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A83033E-1268-4C20-B595-B2DE142958CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
