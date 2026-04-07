@@ -1,6 +1,15 @@
 ﻿
+// in strings \ is an "Escape Character"
+// \n stands for "new line"
+// \r - carriage return
 
-for (int i = 0; i < 10; i++)
+string myString = "Hi \r\n Hi";
+
+for (int counter = 10; counter >= 0; counter--)
 {
-    Console.WriteLine("I is " + i);
+    Console.WriteLine("Counter is " + counter);
+    Console.WriteLine(myString);
+    Thread.Sleep(1000);
 }
+
+Console.ReadKey();
