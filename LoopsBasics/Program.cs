@@ -14,4 +14,4 @@ for (int counter = 10; counter >= 0; counter--)
 }
 Console.WriteLine("The Rocket has Landed!");
 
-Console.ReadKey();
+Console.ReadKey(); // nurlan
